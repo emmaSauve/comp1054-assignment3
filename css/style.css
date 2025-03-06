@@ -34,7 +34,6 @@ header{
 /* google font for the p elements on the page */
 p{
     font-family: "Signika Negative", serif;
-    font-optical-sizing: auto;
     font-style: normal;
     font-size: 1.5em;
 }
@@ -49,7 +48,6 @@ p{
 /* add the google font to the label and input in the form in the footer */
 label, input{
     font-family: "Signika Negative", serif;
-    font-optical-sizing: auto;
     font-style: normal;
 }
 
@@ -256,7 +254,7 @@ footer {
      display: table-cell; 
     }
 
-    /* chnage color of input box when in focus */
+    /* change color of input box when in focus */
 input:focus{
     background-color: #fec837;
 }
